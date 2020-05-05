@@ -1,3 +1,3 @@
-#Accelerated C++ Ch 2 Exercises 
+Accelerated C++ Exercises 
 
-Working thorugh Ch 2
+Working thorugh the exercises in each chapter as I read the book.
