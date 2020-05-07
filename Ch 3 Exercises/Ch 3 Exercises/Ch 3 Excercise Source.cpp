@@ -138,5 +138,55 @@ int main()
 
 int main()
 {
+	cout << "Type a sentence: ";
 
+	string x;
+
+	vector<string> words;
+	vector<double> wordcounter;
+	
+	typedef vector<string>::size_type vec_sz;
+
+	int j = 0;
+
+	while (cin >> x)
+	{
+		words.push_back(x);
+		wordcounter.push_back(1);
+
+		bool matchindicator = 0;
+
+		vec_sz stringsize = words.size();
+
+		if (j >= 1)
+		{
+			for (vec_sz i = 0; i < stringsize - 1 && matchindicator == 0; ++i)
+			{
+				if (x == words[i])
+				{
+					++wordcounter[i];
+					matchindicator = 1;
+					break;
+				}
+			}
+
+			if (matchindicator == 1)
+			{
+				words.pop_back();
+				wordcounter.pop_back();
+			}
+		}
+		++j;
+	}
+
+	vec_sz stringsize = words.size();
+
+	cout << "The number of times each word was repeated in the entered sentence is: " << endl;
+
+	for (int i = 0; i < stringsize; ++i)
+	{
+		cout << words[i] << ": " << wordcounter[i] << endl;
+	}
+
+	return 0;
 }
