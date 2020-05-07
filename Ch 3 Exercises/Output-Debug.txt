@@ -1,0 +1,19 @@
+﻿'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Users\Sammy\source\repos\Accelerated C++ Exercises\Ch 3 Exercises\Debug\Ch 3 Exercises.exe'. Symbols loaded.
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. 
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. 
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. 
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. 
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. 
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. 
+The thread 0x1874 has exited with code 0 (0x0).
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. 
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. 
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. 
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. 
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. 
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. 
+'Ch 3 Exercises.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. 
+The thread 0x4644 has exited with code 0 (0x0).
+The thread 0x4d1c has exited with code 0 (0x0).
+The thread 0x213c has exited with code 0 (0x0).
+The program '[17904] Ch 3 Exercises.exe' has exited with code 0 (0x0).
