@@ -154,7 +154,7 @@ int main()
 		words.push_back(x);
 		wordcounter.push_back(1);
 
-		bool matchindicator = 0;
+		bool matchindicator = 0; 
 
 		vec_sz stringsize = words.size();
 
