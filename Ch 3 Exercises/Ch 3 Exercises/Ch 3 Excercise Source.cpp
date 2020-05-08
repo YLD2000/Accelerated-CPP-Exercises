@@ -136,6 +136,7 @@ int main()
 
 // Exercise 3-3
 
+/*
 int main()
 {
 	cout << "Type a sentence: ";
@@ -190,3 +191,51 @@ int main()
 
 	return 0;
 }
+*/
+
+// Exercise 3-4
+
+/*
+#include <limits>
+
+int main()
+{
+	cout << "Type a sentence: ";
+
+	vector<string> word_vec;
+	vector<int> length_vec;
+
+	string x;
+
+	typedef string::size_type string_sz;
+
+	int counter = 0;
+	int max = 0;
+	int min = std::numeric_limits<int>::max();
+	int max_pos = 0;
+	int min_pos = 0;
+
+	while (cin >> x)
+	{
+		word_vec.push_back(x);
+		int length = x.size();
+		length_vec.push_back(length);
+
+		if (length > max)
+		{
+			max = length;
+			max_pos = counter;
+		}
+
+		if (length < min)
+		{
+			min = length;
+			min_pos = counter;
+		}
+		++counter;
+	}
+
+	cout << "The longest word is: " << word_vec[max_pos] << endl << "It has: " << length_vec[max_pos] << " character(s)." << endl;
+	cout << "The shortest word is: " << word_vec[min_pos] << endl << "It has: " << length_vec[min_pos] << " character(s)." << endl;
+}
+*/
